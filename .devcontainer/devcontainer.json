@@ -1,0 +1,16 @@
+{
+  "name": "AWS Terraform",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "hashicorp.terraform",
+        "ms-vscode.makefile-tools",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+  "remoteUser": "vscode"
+}
